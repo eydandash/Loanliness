@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1058907657016",
+    "firebase_url": "https://loanliness-4097c.firebaseio.com",
+    "project_id": "loanliness-4097c",
+    "storage_bucket": "loanliness-4097c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058907657016:android:91dad6ec07dc7809",
+        "android_client_info": {
+          "package_name": "com.Loanliness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058907657016-ngii1valfdnaio0m09tdc7idbmpb9ls9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Loanliness",
+            "certificate_hash": "5b7bdf785ef0e307e25676e13b15b5f8b6311673"
+          }
+        },
+        {
+          "client_id": "1058907657016-dqnnb072o24aacsu2np7k3eubvh9mhms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL8snhzmRllf1xw3_y8fmsozy4-HcX34w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058907657016-dqnnb072o24aacsu2np7k3eubvh9mhms.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="@android:color/white"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/containerLogIn"
+        android:layout_weight="100"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:weightSum="100">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/txtTitleLogIn"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_weight="15"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:text="LOGIN" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/emptySpace"
+            android:layout_weight="10" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/formLogIn"
+            android:layout_weight="30"
+            android:background="#ffff7d28">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/emailStackLogIn"
+                android:layout_weight="15"
+                android:weightSum="100"
+                android:background="@android:color/transparent">
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lblEmailLogIn"
+                    android:text="Email"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:layout_weight="30"
+                    android:typeface="monospace"
+                    android:textSize="20dp" />
+                <EditText
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtEmailLogIn"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:layout_weight="70"
+                    android:typeface="monospace"
+                    android:textSize="17dp"
+                    android:hint="enter your email"
+                    android:textColorHint="@color/material_grey_300" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/passStackLogIn"
+                android:layout_weight="15">
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lblPassLogIn"
+                    android:text="Password"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:layout_weight="30"
+                    android:typeface="monospace"
+                    android:textSize="20dp" />
+                <EditText
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtPassLogIn"
+                    android:textColor="@android:color/black"
+                    android:gravity="center"
+                    android:layout_weight="70"
+                    android:typeface="monospace"
+                    android:textSize="17dp"
+                    android:textColorHint="@color/material_grey_300"
+                    android:password="true"
+                    android:hint="enter your password" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/btnSignInLogIn"
+            android:text="Sign In"
+            android:gravity="center"
+            android:layout_weight="10"
+            android:background="@android:color/transparent"
+            android:textColor="#ffff7d28"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/emptySpace"
+            android:layout_weight="10" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/btnRegisterLogIn"
+            android:text="Register"
+            android:backgroundTint="@android:color/transparent"
+            android:textColor="#ff2863ff"
+            android:typeface="monospace"
+            android:textSize="20dp"
+            android:layout_weight="10" />
+    </LinearLayout>
+</LinearLayout>
